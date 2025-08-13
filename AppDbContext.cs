@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CodeLab.Facets;
 
-internal class AppDbContext : DbContext
+public class AppDbContext : DbContext
 {
     public DbSet<Person> People { get; set; }
 
